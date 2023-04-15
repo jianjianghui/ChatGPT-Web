@@ -1,7 +1,11 @@
 
 cd ./service
 pnpm install
-nohup pnpm start > service.log &
+# 打包
+pnpm build
+
+# 运行
+pnpm prod
 echo "Start service complete!"
 
 
