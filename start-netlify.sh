@@ -8,6 +8,6 @@ echo "Start service complete!"
 cd ..
 echo "" > front.log
 pnpm install
-nohup pnpm dev > front.log &
+nohup pnpm build > front.log &
 echo "Start front complete!"
 tail -f front.log
