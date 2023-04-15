@@ -9,5 +9,5 @@ cd ..
 echo "" > front.log
 pnpm install
 nohup pnpm build > front.log &
-echo "Start front complete!"
+echo "Build front complete!"
 tail -f front.log
