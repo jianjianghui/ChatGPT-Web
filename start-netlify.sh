@@ -5,7 +5,7 @@ pnpm install
 pnpm build
 
 # 运行
-pnpm prod
+nohup pnpm prod > service.log &
 echo "Start service complete!"
 
 
