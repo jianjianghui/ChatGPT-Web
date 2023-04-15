@@ -1,5 +1,3 @@
 [build]
 command = "nohup pnpm dev > front.log &"
-
-[build]
 config = "service/netlify.toml"
